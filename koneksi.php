@@ -1,8 +1,9 @@
 <?php
+// deklarasi variabel ke database
 $host = "localhost";
 $user = "root";
 $pass = "";
-$db = "sekolah";
+$db = "sekolah_db";
 
 // membuat koneksi ke database
 $koneksi = mysqli_connect($host, $user, $pass, $db);
